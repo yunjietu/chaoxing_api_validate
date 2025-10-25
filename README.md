@@ -2,11 +2,11 @@
 
 ## 概述
 
-本文档介绍如何使用 [daka1.com](https://api.daka1.com/api/validate) 提供的滑块验证码API接口，该接口专门用于处理超星学习通等平台的滑块验证码验证。
+本文档介绍如何使用 [https://xxtapi.daka1.com](https://xxtapi.daka1.com/api/validate) 提供的滑块验证码API接口，该接口专门用于处理超星学习通等平台的滑块验证码验证。
 
 ## 接口信息
 
-- **接口地址**: `https://api.daka1.com/api/validate`
+- **接口地址**: `https://xxtapi.daka1.com/api/validate`
 - **请求方法**: `GET`
 - **响应格式**: `JSON`
 - **接口类型**: 滑块验证码自动识别与验证
