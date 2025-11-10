@@ -65,7 +65,7 @@ import json
 def get_validate_from_daka1():
     """从daka1.com获取滑块验证码validate值"""
     
-    url = "https://api.daka1.com/api/validate"
+    url = "https://xxtapi.daka1.com/api/validate"
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
         "Accept": "application/json, text/plain, */*"
@@ -123,7 +123,7 @@ class Daka1API:
     """daka1.com 滑块验证码API客户端"""
     
     def __init__(self):
-        self.base_url = "https://api.daka1.com/api/validate"
+        self.base_url = "https://xxtapi.daka1.com/api/validate"
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
             "Accept": "application/json, text/plain, */*",
@@ -190,7 +190,7 @@ else:
 ```javascript
 // 使用fetch API调用daka1.com接口
 async function getValidateFromDaka1() {
-    const url = 'https://api.daka1.com/api/validate';
+    const url = 'https://xxtapi.daka1.com/api/validate';
     
     try {
         const response = await fetch(url, {
@@ -250,12 +250,12 @@ getValidateFromDaka1().then(result => {
 
 ```bash
 # 基本调用
-curl -X GET "https://api.daka1.com/api/validate" \
+curl -X GET "https://xxtapi.daka1.com/api/validate" \
   -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" \
   -H "Accept: application/json, text/plain, */*"
 
 # 带详细输出的调用
-curl -X GET "https://api.daka1.com/api/validate" \
+curl -X GET "https://xxtapi.daka1.com/api/validate" \
   -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" \
   -H "Accept: application/json, text/plain, */*" \
   -w "\nHTTP状态码: %{http_code}\n响应时间: %{time_total}s\n" \
@@ -400,7 +400,7 @@ def create_session():
 
 # 使用优化的会话
 session = create_session()
-response = session.get("https://api.daka1.com/api/validate")
+response = session.get("https://xxtapi.daka1.com/api/validate")
 ```
 
 ### 2. 异步处理
@@ -412,7 +412,7 @@ import aiohttp
 async def async_get_validate():
     """异步获取validate值"""
     
-    url = "https://api.daka1.com/api/validate"
+    url = "https://xxtapi.daka1.com/api/validate"
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
         "Accept": "application/json, text/plain, */*"
@@ -495,7 +495,7 @@ def get_validate_with_logging():
 
 如有问题或建议，请参考以下资源：
 
-- 接口文档: [https://api.daka1.com/api/validate](https://api.daka1.com/api/validate)
+- 接口文档: [https://xxtapi.daka1.com/api/validate](https://xxtapi.daka1.com/api/validate)
 - 测试工具: 使用提供的Python测试脚本
 - 错误排查: 参考错误处理章节
 
